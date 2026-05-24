@@ -1,6 +1,8 @@
 name: كتابة ونشر مقال يومي
 
 on:
+  push:
+    branches: [master]
   schedule:
     - cron: "0 5 * * *"
   workflow_dispatch:
