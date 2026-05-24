@@ -1,0 +1,9 @@
+{
+  "name": "ai-blog-agent",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "generate": "node src/generate.js",
+    "build": "node src/generate.js && node src/build.js"
+  }
+}
